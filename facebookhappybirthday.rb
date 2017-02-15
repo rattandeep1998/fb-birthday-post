@@ -52,7 +52,7 @@ birthdayList.lis.each do |li|
 		li.textarea.set "#{birthdayPost}"
 		sleep 5
 		browser.send_keys :enter
-		puts 'You wished #{birthdayPost} to #{personName} .'
+		puts "You wished #{birthdayPost} to #{personName} ."
 	end
 
 	#puts 'You wished #{birthdayPost} to #{personName} .'
